@@ -36,7 +36,18 @@ class CountryList
 
     private function buildCountryList()
     {
-        $countries = [];
+        $countries = [
+
+            // Andorra
+            'andorra' => [
+                'normalized'       => 'andorra',
+                'alpha-2'          => 'AD',
+                'ccTLD'            => '.ad',
+                'common_name'      => 'Andorra',
+                'en_official_name' => 'Principality of Andorra'
+            ],
+
+        ];
 
         $this->countries = $countries;
     }
