@@ -47,6 +47,9 @@ class CountryList
 
         $countries = [
 
+            // For order, see list on:
+            // https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
             // AD
             // Andorra
             'andorra' => [
@@ -109,13 +112,13 @@ class CountryList
             ],
 
             // AM
-            // Albania
+            // Armenia
             'armenia' => [
                 'normalized'       => 'armenia',
                 'alpha-2'          => 'AM',
                 'ccTLD'            => '.am',
                 'common_name'      => 'Armenia',
-                'en_official_name' => 'Armenia',
+                'en_official_name' => 'Republic of Armenia',
             ],
 
         ];

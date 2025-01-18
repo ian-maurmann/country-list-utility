@@ -1,8 +1,8 @@
 <?php
 
 /**
- * ArrayUtility
- * ------------
+ * Array Utility
+ * -------------
  *
  * @noinspection PhpPropertyNamingConventionInspection      - Long property names are ok.
  * @noinspection PhpMethodNamingConventionInspection        - Long method names are ok.
