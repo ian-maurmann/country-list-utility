@@ -1,0 +1,20 @@
+{
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ikm/cli": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "IKM\\CountryListUtility\\": [
+                "src/",
+                "src/cli",
+                "src/utilities"
+            ]
+        }
+    }
+}
