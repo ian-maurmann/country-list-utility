@@ -33,6 +33,11 @@ class CountryList
         $this->buildCountryList();
     }
 
+    public function getAllCountries(): array
+    {
+        return $this->countries;
+    }
+
 
     private function buildCountryList()
     {
@@ -53,7 +58,7 @@ class CountryList
 
             // AD
             // Andorra
-            'andorra' => [
+            [
                 'normalized'       => 'andorra',
                 'alpha-2'          => 'AD',
                 'ccTLD'            => '.ad',
@@ -64,7 +69,7 @@ class CountryList
 
             // AE
             // United Arab Emirates
-            'emirates' => [
+            [
                 'normalized'       => 'emirates',
                 'alpha-2'          => 'AE',
                 'ccTLD'            => '.ae',
@@ -75,7 +80,7 @@ class CountryList
 
             // AF
             // Afghanistan
-            'afghanistan' => [
+            [
                 'normalized'       => 'afghanistan',
                 'alpha-2'          => 'AF',
                 'ccTLD'            => '.af',
@@ -86,7 +91,7 @@ class CountryList
 
             // AG
             // Antigua and Barbuda
-            'antigua-and-barbuda' => [
+            [
                 'normalized'       => 'antigua-and-barbuda',
                 'alpha-2'          => 'AG',
                 'ccTLD'            => '.ag',
@@ -97,7 +102,7 @@ class CountryList
 
             // AI
             // Anguilla
-            'anguilla' => [
+            [
                 'normalized'       => 'anguilla',
                 'alpha-2'          => 'AI',
                 'alpha-2__note'    => 'AI previously represented French Afars and Issas, now Djibouti',
@@ -109,7 +114,7 @@ class CountryList
 
             // AL
             // Albania
-            'albania' => [
+            [
                 'normalized'       => 'albania',
                 'alpha-2'          => 'AL',
                 'ccTLD'            => '.al',
@@ -120,7 +125,7 @@ class CountryList
 
             // AM
             // Armenia
-            'armenia' => [
+            [
                 'normalized'       => 'armenia',
                 'alpha-2'          => 'AM',
                 'ccTLD'            => '.am',
@@ -131,7 +136,7 @@ class CountryList
 
             // AO
             // Angola
-            'angola' => [
+            [
                 'normalized'       => 'angola',
                 'alpha-2'          => 'AO',
                 'ccTLD'            => '.ao',
@@ -142,7 +147,7 @@ class CountryList
 
             // XX
             // Xxxxxxx
-            'xxxxxxx' => [
+            [
                 'normalized'       => 'xxxxxxx',
                 'alpha-2'          => 'XX',
                 'ccTLD'            => '.xx',

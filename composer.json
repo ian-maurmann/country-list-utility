@@ -13,6 +13,7 @@
             "IKM\\CountryListUtility\\": [
                 "src/",
                 "src/cli",
+                "src/cli-output",
                 "src/utilities"
             ]
         }

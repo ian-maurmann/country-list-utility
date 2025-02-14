@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Lang-Word-Gen command tool
+ * Country-List command tool
  * --------------------------
  *
  * @noinspection PhpPropertyNamingConventionInspection      - Long property names are ok.
@@ -31,11 +31,13 @@ class CountryListCommandTool
     private CommandLineFormatter $formatter;
     private string               $version_number;
     private CommandLineWriter    $writer;
+    private CountryListDisplay   $country_list_display;
 
     public function __construct()
     {
         // Set object dependencies
         $this->array_utility = new ArrayUtility();
+        $this->country_list_display = new CountryListDisplay();
 
         // Get CLI tools
         $this->writer    = new CommandLineWriter();
@@ -100,6 +102,23 @@ class CountryListCommandTool
             return;
         }
 
+        // Show
+        // ────
+        $has_show_flag = $positional_parameter_1 === 'show';
+        if($has_show_flag){
+
+            $has_show_alpha2_flag = $positional_parameter_2 === 'alpha2';
+
+            if($has_show_alpha2_flag){
+                $this->displayShowAlpha2();
+                return;
+            }
+            else{
+                $this->displayShow();
+                return;
+            }
+        }
+
         // Version
         // ───────
         $has_version_flag = $this->array_utility->arrayHasValueInsensitive($option_keys,'v') || $this->array_utility->arrayHasValueInsensitive($option_keys,'version') || $positional_parameter_1 === 'version' || $positional_parameter_1 === 'Version';
@@ -141,5 +160,21 @@ class CountryListCommandTool
     public function displayFoo()
     {
         $this->writer->writeLine('bar');
+    }
+
+    public function displayShow()
+    {
+        // Formatting
+        $reset = $this->formatter->reset;
+        $bold  = $this->formatter->bold;
+        $cyan  = $this->formatter->fg_bright_cyan;
+
+        $this->writer->writeLine('Options for ' . $bold . $cyan . 'show' . $reset . ':');
+        $this->writer->writeLine(' - show ' . $cyan . 'alpha2' . $reset);
+    }
+
+    public function displayShowAlpha2()
+    {
+        $this->country_list_display->showAlpha2();
     }
 }
