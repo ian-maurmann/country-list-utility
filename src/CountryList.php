@@ -168,15 +168,15 @@ class CountryList
                 'en_official_name' => 'Argentine Republic',
             ],
 
-            // XX
-            // Xxxxxxx
+            // AS
+            // American Samoa
             [
-                'normalized'       => 'xxxxxxx',
-                'alpha-2'          => 'XX',
-                'ccTLD'            => '.xx',
-                'common_name'      => 'Xxxxxxx',
-                'ma_name'          => 'XxxxxxXxxx',
-                'en_official_name' => 'XxxxxxxXxxxxxxXxxxxxx',
+                'normalized'       => 'american-samoa',
+                'alpha-2'          => 'AS',
+                'ccTLD'            => '.as',
+                'common_name'      => 'American Samoa',
+                'ma_name'          => 'American Samoa',
+                'en_official_name' => 'American Samoa',
             ],
 
             // XX
