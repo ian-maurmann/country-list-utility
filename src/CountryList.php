@@ -157,6 +157,28 @@ class CountryList
                 'en_official_name' => 'Antarctica',
             ],
 
+            // AR
+            // Argentina
+            [
+                'normalized'       => 'argentina',
+                'alpha-2'          => 'AR',
+                'ccTLD'            => '.ar',
+                'common_name'      => 'Argentina',
+                'ma_name'          => 'Argentina',
+                'en_official_name' => 'Argentine Republic',
+            ],
+
+            // XX
+            // Xxxxxxx
+            [
+                'normalized'       => 'xxxxxxx',
+                'alpha-2'          => 'XX',
+                'ccTLD'            => '.xx',
+                'common_name'      => 'Xxxxxxx',
+                'ma_name'          => 'XxxxxxXxxx',
+                'en_official_name' => 'XxxxxxxXxxxxxxXxxxxxx',
+            ],
+
             // XX
             // Xxxxxxx
             [
