@@ -145,6 +145,18 @@ class CountryList
                 'en_official_name' => 'Republic of Angola',
             ],
 
+            // AQ
+            // Antarctica
+            [
+                'normalized'       => 'antarctica',
+                'alpha-2'          => 'AQ',
+                'alpha-2__note'    => 'Code taken from name in French: Antarctique',
+                'ccTLD'            => '.aq',
+                'common_name'      => 'Antarctica',
+                'ma_name'          => 'Antarctica',
+                'en_official_name' => 'Antarctica',
+            ],
+
             // XX
             // Xxxxxxx
             [
