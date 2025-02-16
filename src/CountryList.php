@@ -179,11 +179,44 @@ class CountryList
                 'en_official_name' => 'American Samoa',
             ],
 
+            // AT
+            // Austria
+            [
+                'normalized'       => 'austria',
+                'alpha-2'          => 'AT',
+                'ccTLD'            => '.at',
+                'common_name'      => 'Austria',
+                'ma_name'          => 'Austria',
+                'en_official_name' => 'Republic of Austria',
+            ],
+
+            // AU
+            // Australia
+            [
+                'normalized'       => 'australia',
+                'alpha-2'          => 'AU',
+                'ccTLD'            => '.au',
+                'common_name'      => 'Australia',
+                'ma_name'          => 'Australia',
+                'en_official_name' => 'Commonwealth of Australia,',
+            ],
+
+            // AW
+            // Aruba
+            [
+                'alpha-2'          => 'AW',
+                'normalized'       => 'aruba',
+                'ccTLD'            => '.aw',
+                'common_name'      => 'Aruba',
+                'ma_name'          => 'Aruba',
+                'en_official_name' => 'Country of Aruba',
+            ],
+
             // XX
             // Xxxxxxx
             [
-                'normalized'       => 'xxxxxxx',
                 'alpha-2'          => 'XX',
+                'normalized'       => 'xxxxxxx',
                 'ccTLD'            => '.xx',
                 'common_name'      => 'Xxxxxxx',
                 'ma_name'          => 'XxxxxxXxxx',
