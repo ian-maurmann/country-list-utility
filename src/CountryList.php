@@ -212,6 +212,39 @@ class CountryList
                 'en_official_name' => 'Country of Aruba',
             ],
 
+            // AX
+            // Åland Islands
+            [
+                'alpha-2'          => 'AX',
+                'normalized'       => 'aland',
+                'ccTLD'            => '.ax',
+                'common_name'      => 'Åland',
+                'ma_name'          => 'Åland Islands',
+                'en_official_name' => 'Region of Åland',
+            ],
+
+            // AZ
+            // Azerbaijan
+            [
+                'alpha-2'          => 'AZ',
+                'normalized'       => 'azerbaijan',
+                'ccTLD'            => '.az',
+                'common_name'      => 'Azerbaijan',
+                'ma_name'          => 'Azerbaijan',
+                'en_official_name' => 'Republic of Azerbaijan',
+            ],
+
+            // BA
+            // Bosnia and Herzegovina
+            [
+                'alpha-2'          => 'BA',
+                'normalized'       => 'bosnia-and-herzegovina',
+                'ccTLD'            => '.ba',
+                'common_name'      => 'Bosnia and Herzegovina',
+                'ma_name'          => 'Bosnia and Herzegovina',
+                'en_official_name' => 'Bosnia and Herzegovina',
+            ],
+
             // XX
             // Xxxxxxx
             [
@@ -222,6 +255,14 @@ class CountryList
                 'ma_name'          => 'XxxxxxXxxx',
                 'en_official_name' => 'XxxxxxxXxxxxxxXxxxxxx',
             ],
+
+            // TBD, Might need to add
+            // ====================================
+            // - artsakh          = Republic of Artsakh
+            // - brcko / brecko   = Brčko District
+            // - federacija       = Federation of Bosnia and Herzegovina
+            // - srpska / serpska = Republic of Srpska
+            // ====================================
 
         ];
 
