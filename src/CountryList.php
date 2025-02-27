@@ -215,12 +215,13 @@ class CountryList
             // AX
             // Åland Islands
             [
-                'alpha-2'          => 'AX',
-                'normalized'       => 'aland',
-                'ccTLD'            => '.ax',
-                'common_name'      => 'Åland',
-                'ma_name'          => 'Åland Islands',
-                'en_official_name' => 'Region of Åland',
+                'alpha-2'                  => 'AX',
+                'normalized'               => 'aland',
+                'ccTLD'                    => '.ax',
+                'common_name'              => 'Åland',
+                'common_name__naturalized' => 'Aland',
+                'ma_name'                  => 'Åland Islands',
+                'en_official_name'         => 'Region of Åland',
             ],
 
             // AZ
@@ -245,12 +246,45 @@ class CountryList
                 'en_official_name' => 'Bosnia and Herzegovina',
             ],
 
+            // BB
+            // Barbados
+            [
+                'alpha-2'          => 'BB',
+                'normalized'       => 'barbados',
+                'ccTLD'            => '.bb',
+                'common_name'      => 'Barbados',
+                'ma_name'          => 'Barbados',
+                'en_official_name' => 'Barbados',
+            ],
+
+            // BD
+            // Bangladesh
+            [
+                'alpha-2'          => 'BD',
+                'ccTLD'            => '.bd',
+                'normalized'       => 'bangladesh',
+                'common_name'      => 'Bangladesh',
+                'ma_name'          => 'Bangladesh',
+                'en_official_name' => 'People’s Republic of Bangladesh', // <---- Using Right-Single-Quotation-Mark, not single-quote
+            ],
+
+            // BE
+            // Belgium
+            [
+                'alpha-2'          => 'BE',
+                'normalized'       => 'belgium',
+                'ccTLD'            => '.be',
+                'common_name'      => 'Belgium',
+                'ma_name'          => 'Belgium',
+                'en_official_name' => 'Kingdom of Belgium',
+            ],
+
             // XX
             // Xxxxxxx
             [
                 'alpha-2'          => 'XX',
-                'normalized'       => 'xxxxxxx',
                 'ccTLD'            => '.xx',
+                'normalized'       => 'xxxxxxx',
                 'common_name'      => 'Xxxxxxx',
                 'ma_name'          => 'XxxxxxXxxx',
                 'en_official_name' => 'XxxxxxxXxxxxxxXxxxxxx',
@@ -260,8 +294,8 @@ class CountryList
             // ====================================
             // - artsakh          = Republic of Artsakh
             // - brcko / brecko   = Brčko District
-            // - federacija       = Federation of Bosnia and Herzegovina
-            // - srpska / serpska = Republic of Srpska
+            // - federacija       = Federation of Bosnia and Herzegovina (Entity in Bosnia & Herzegovina)
+            // - srpska / serpska = Republic of Srpska (Entity in Bosnia & Herzegovina)
             // ====================================
 
         ];
