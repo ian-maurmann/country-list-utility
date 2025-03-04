@@ -279,6 +279,39 @@ class CountryList
                 'en_official_name' => 'Kingdom of Belgium',
             ],
 
+            // BF
+            // Burkina Faso
+            [
+                'alpha-2'          => 'BF',
+                'ccTLD'            => '.bf',
+                'normalized'       => 'burkina-faso',
+                'common_name'      => 'Burkina Faso',
+                'ma_name'          => 'Burkina Faso',
+                'en_official_name' => 'Burkina Faso',
+            ],
+
+            // BG
+            // Bulgaria
+            [
+                'alpha-2'          => 'BG',
+                'ccTLD'            => '.bg',
+                'normalized'       => 'bulgaria',
+                'common_name'      => 'Bulgaria',
+                'ma_name'          => 'Bulgaria',
+                'en_official_name' => 'Republic of Bulgaria',
+            ],
+
+            // BH
+            // Bahrain
+            [
+                'alpha-2'          => 'BH',
+                'ccTLD'            => '.bh',
+                'normalized'       => 'bahrain',
+                'common_name'      => 'Bahrain',
+                'ma_name'          => 'Bahrain',
+                'en_official_name' => 'Kingdom of Bahrain',
+            ],
+
             // XX
             // Xxxxxxx
             [
