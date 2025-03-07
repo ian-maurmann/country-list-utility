@@ -312,6 +312,39 @@ class CountryList
                 'en_official_name' => 'Kingdom of Bahrain',
             ],
 
+            // BI
+            // Burundi
+            [
+                'alpha-2'          => 'BI',
+                'ccTLD'            => '.bi',
+                'normalized'       => 'burundi',
+                'common_name'      => 'Burundi',
+                'ma_name'          => 'Burundi',
+                'en_official_name' => 'Republic of Burundi',
+            ],
+
+            // BJ
+            // Benin
+            [
+                'alpha-2'          => 'BJ',
+                'ccTLD'            => '.bj',
+                'normalized'       => 'benin',
+                'common_name'      => 'Benin',
+                'ma_name'          => 'Benin',
+                'en_official_name' => 'Republic of Benin',
+            ],
+
+            // BL
+            // Saint Barthélemy
+            [
+                'alpha-2'          => 'BL',
+                'ccTLD'            => '.bl',
+                'normalized'       => 'saint-barthelemy',
+                'common_name'      => 'Saint Barthélemy',
+                'ma_name'          => 'Saint Barthélemy',
+                'en_official_name' => 'Collectivité territoriale de Saint-Barthélemy',
+            ],
+
             // XX
             // Xxxxxxx
             [
