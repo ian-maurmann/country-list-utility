@@ -340,9 +340,42 @@ class CountryList
                 'alpha-2'          => 'BL',
                 'ccTLD'            => '.bl',
                 'normalized'       => 'saint-barthelemy',
-                'common_name'      => 'Saint Barthélemy',
+                'common_name'      => 'St. Barthélemy',
                 'ma_name'          => 'Saint Barthélemy',
                 'en_official_name' => 'Collectivité territoriale de Saint-Barthélemy',
+            ],
+
+            // BM
+            // Bermuda
+            [
+                'alpha-2'          => 'BM',
+                'ccTLD'            => '.bm',
+                'normalized'       => 'bermuda',
+                'common_name'      => 'Bermuda',
+                'ma_name'          => 'Bermuda',
+                'en_official_name' => 'Bermuda',
+            ],
+
+            // BN
+            // Brunei Darussalam
+            [
+                'alpha-2'          => 'BN',
+                'ccTLD'            => '.bn',
+                'normalized'       => 'brunei',
+                'common_name'      => 'Brunei',
+                'ma_name'          => 'Brunei Darussalam',
+                'en_official_name' => 'Brunei Darussalam',
+            ],
+
+            // BO
+            // Bolivia, Plurinational State of
+            [
+                'alpha-2'          => 'BO',
+                'ccTLD'            => '.bo',
+                'normalized'       => 'bolivia',
+                'common_name'      => 'Bolivia',
+                'ma_name'          => 'Bolivia, Plurinational State of',
+                'en_official_name' => 'Plurinational State of Bolivia',
             ],
 
             // XX
