@@ -105,7 +105,7 @@ class CountryList
             [
                 'normalized'       => 'anguilla',
                 'alpha-2'          => 'AI',
-                'alpha-2__note'    => 'AI previously represented French Afars and Issas, now Djibouti',
+                'alpha-2__note'    => '(AI previously represented French Afars and Issas, now Djibouti)',
                 'ccTLD'            => '.ai',
                 'common_name'      => 'Anguilla',
                 'ma_name'          => 'Anguilla',
@@ -150,7 +150,7 @@ class CountryList
             [
                 'normalized'       => 'antarctica',
                 'alpha-2'          => 'AQ',
-                'alpha-2__note'    => 'Code taken from name in French: Antarctique',
+                'alpha-2__note'    => '(Code taken from name in French: Antarctique)',
                 'ccTLD'            => '.aq',
                 'common_name'      => 'Antarctica',
                 'ma_name'          => 'Antarctica',
@@ -376,6 +376,41 @@ class CountryList
                 'common_name'      => 'Bolivia',
                 'ma_name'          => 'Bolivia, Plurinational State of',
                 'en_official_name' => 'Plurinational State of Bolivia',
+            ],
+
+            // BQ
+            // Bonaire, Sint Eustatius and Saba
+            // (Caribbean Netherlands)
+            [
+                'alpha-2'          => 'BQ',
+                'alpha-2__note'    => '(BQ previously represented British Antarctic Territory)',
+                'ccTLD'            => '.bq',
+                'normalized'       => 'bonaire-sint-eustatius-and-saba',
+                'common_name'      => 'Bonaire, St. Eustatius and Saba',
+                'ma_name'          => 'Bonaire, Sint Eustatius and Saba',
+                'en_official_name' => 'Caribbean Netherlands',
+            ],
+
+            // BR
+            // Brazil
+            [
+                'alpha-2'          => 'BR',
+                'ccTLD'            => '.br',
+                'normalized'       => 'brazil',
+                'common_name'      => 'Brazil',
+                'ma_name'          => 'Brazil',
+                'en_official_name' => 'Federative Republic of Brazil',
+            ],
+
+            // BS
+            // Bahamas
+            [
+                'alpha-2'          => 'BS',
+                'ccTLD'            => '.bs',
+                'normalized'       => 'bahamas',
+                'common_name'      => 'Bahamas',
+                'ma_name'          => 'Bahamas',
+                'en_official_name' => 'Commonwealth of The Bahamas',
             ],
 
             // XX
