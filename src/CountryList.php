@@ -413,6 +413,39 @@ class CountryList
                 'en_official_name' => 'Commonwealth of The Bahamas',
             ],
 
+            // BT
+            // Bhutan
+            [
+                'alpha-2'          => 'BT',
+                'ccTLD'            => '.bt',
+                'normalized'       => 'bhutan',
+                'common_name'      => 'Bhutan',
+                'ma_name'          => 'Bhutan',
+                'en_official_name' => 'Kingdom of Bhutan',
+            ],
+
+            // BV
+            // Bouvet Island
+            [
+                'alpha-2'          => 'BV',
+                'ccTLD'            => '.bv',
+                'normalized'       => 'bouvet-island',
+                'common_name'      => 'Bouvet Island',
+                'ma_name'          => 'Bouvet Island',
+                'en_official_name' => 'Bouvet Island',
+            ],
+
+            // BW
+            // Botswana
+            [
+                'alpha-2'          => 'BW',
+                'ccTLD'            => '.bw',
+                'normalized'       => 'Botswana',
+                'common_name'      => 'Botswana',
+                'ma_name'          => 'Botswana',
+                'en_official_name' => 'Republic of Botswana',
+            ],
+
             // XX
             // Xxxxxxx
             [
