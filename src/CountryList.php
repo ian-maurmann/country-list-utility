@@ -440,10 +440,43 @@ class CountryList
             [
                 'alpha-2'          => 'BW',
                 'ccTLD'            => '.bw',
-                'normalized'       => 'Botswana',
+                'normalized'       => 'botswana',
                 'common_name'      => 'Botswana',
                 'ma_name'          => 'Botswana',
                 'en_official_name' => 'Republic of Botswana',
+            ],
+
+            // BY
+            // Belarus
+            [
+                'alpha-2'          => 'BY',
+                'ccTLD'            => '.by',
+                'normalized'       => 'belarus',
+                'common_name'      => 'Belarus',
+                'ma_name'          => 'Belarus',
+                'en_official_name' => 'Republic of Belarus',
+            ],
+
+            // BZ
+            // Belize
+            [
+                'alpha-2'          => 'BZ',
+                'ccTLD'            => '.bz',
+                'normalized'       => 'belize',
+                'common_name'      => 'Belize',
+                'ma_name'          => 'Belize',
+                'en_official_name' => 'Belize',
+            ],
+
+            // CA
+            // Canada
+            [
+                'alpha-2'          => 'CA',
+                'ccTLD'            => '.ca',
+                'normalized'       => 'canada',
+                'common_name'      => 'Canada',
+                'ma_name'          => 'Canada',
+                'en_official_name' => 'Canada',
             ],
 
             // XX
