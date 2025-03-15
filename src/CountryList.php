@@ -479,6 +479,40 @@ class CountryList
                 'en_official_name' => 'Canada',
             ],
 
+            // CC
+            // Cocos (Keeling) Islands
+            [
+                'alpha-2'          => 'CC',
+                'ccTLD'            => '.cc',
+                'normalized'       => 'cocos-keeling-islands',
+                'common_name'      => 'Cocos (Keeling) Islands',
+                'ma_name'          => 'Cocos (Keeling) Islands',
+                'en_official_name' => 'Territory of Cocos (Keeling) Islands',
+            ],
+
+            // CD
+            // Congo, Democratic Republic of the
+            [
+                'alpha-2'          => 'CD',
+                'alpha-2__note'    => '(Changed from ZR for former name Zaire)',
+                'ccTLD'            => '.cd',
+                'normalized'       => 'congo-democratic-republic',
+                'common_name'      => 'Congo, Democratic Republic of the',
+                'ma_name'          => 'Congo, Democratic Republic of the',
+                'en_official_name' => 'Democratic Republic of the Congo',
+            ],
+
+            // CF
+            // Central African Republic
+            [
+                'alpha-2'          => 'CF',
+                'ccTLD'            => '.cf',
+                'normalized'       => 'central-african-republic',
+                'common_name'      => 'Central African Republic',
+                'ma_name'          => 'Central African Republic',
+                'en_official_name' => 'Central African Republic',
+            ],
+
             // XX
             // Xxxxxxx
             [
