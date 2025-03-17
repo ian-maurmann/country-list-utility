@@ -368,7 +368,7 @@ class CountryList
             ],
 
             // BO
-            // Bolivia, Plurinational State of
+            // Bolivia
             [
                 'alpha-2'          => 'BO',
                 'ccTLD'            => '.bo',
@@ -480,7 +480,7 @@ class CountryList
             ],
 
             // CC
-            // Cocos (Keeling) Islands
+            // Cocos-Keeling Islands
             [
                 'alpha-2'          => 'CC',
                 'ccTLD'            => '.cc',
@@ -491,7 +491,7 @@ class CountryList
             ],
 
             // CD
-            // Congo, Democratic Republic of the
+            // DR Congo
             [
                 'alpha-2'          => 'CD',
                 'alpha-2__note'    => '(Changed from ZR for former name Zaire)',
@@ -511,6 +511,39 @@ class CountryList
                 'common_name'      => 'Central African Republic',
                 'ma_name'          => 'Central African Republic',
                 'en_official_name' => 'Central African Republic',
+            ],
+
+            // CG
+            // Congo
+            [
+                'alpha-2'          => 'CG',
+                'ccTLD'            => '.cg',
+                'normalized'       => 'congo',
+                'common_name'      => 'Congo',
+                'ma_name'          => 'Congo',
+                'en_official_name' => 'Republic of the Congo',
+            ],
+
+            // CH
+            // Switzerland
+            [
+                'alpha-2'          => 'CH',
+                'ccTLD'            => '.ch',
+                'normalized'       => 'switzerland',
+                'common_name'      => 'Switzerland',
+                'ma_name'          => 'Switzerland',
+                'en_official_name' => 'Swiss Confederation',
+            ],
+
+            // CI
+            // Ivory Coast
+            [
+                'alpha-2'          => 'CI',
+                'ccTLD'            => '.ci',
+                'normalized'       => 'ivory-coast',
+                'common_name'      => 'Ivory Coast',
+                'ma_name'          => 'Côte d’Ivoire', // <---- Using Right-Single-Quotation-Mark, not single-quote
+                'en_official_name' => 'Republic of Côte d’Ivoire',
             ],
 
             // XX
