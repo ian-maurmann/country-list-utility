@@ -546,6 +546,39 @@ class CountryList
                 'en_official_name' => 'Republic of Côte d’Ivoire',
             ],
 
+            // CK
+            // Cook Islands
+            [
+                'alpha-2'          => 'CK',
+                'ccTLD'            => '.ck',
+                'normalized'       => 'cook-islands',
+                'common_name'      => 'Cook Islands',
+                'ma_name'          => 'Cook Islands',
+                'en_official_name' => 'Cook Islands',
+            ],
+
+            // CL
+            // Chile
+            [
+                'alpha-2'          => 'CL',
+                'ccTLD'            => '.cl',
+                'normalized'       => 'chile',
+                'common_name'      => 'Chile',
+                'ma_name'          => 'Chile',
+                'en_official_name' => 'Republic of Chile',
+            ],
+
+            // CM
+            // Cameroon
+            [
+                'alpha-2'          => 'CM',
+                'ccTLD'            => '.cm',
+                'normalized'       => 'cameroon',
+                'common_name'      => 'Cameroon',
+                'ma_name'          => 'Cameroon',
+                'en_official_name' => 'Republic of Cameroon',
+            ],
+
             // XX
             // Xxxxxxx
             [
