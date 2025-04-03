@@ -56,6 +56,7 @@ class CountryList
             // For order, see list on:
             // https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
+
             // AD
             // Andorra
             [
@@ -66,6 +67,8 @@ class CountryList
                 'ma_name'          => 'Andorra',
                 'en_official_name' => 'Principality of Andorra',
             ],
+            // (Context: Sovereign country, Always listed as itself)
+
 
             // AE
             // United Arab Emirates
@@ -78,6 +81,7 @@ class CountryList
                 'en_official_name' => 'United Arab Emirates',
             ],
 
+
             // AF
             // Afghanistan
             [
@@ -89,6 +93,7 @@ class CountryList
                 'en_official_name' => 'Islamic Emirate of Afghanistan',
             ],
 
+
             // AG
             // Antigua and Barbuda
             [
@@ -99,6 +104,7 @@ class CountryList
                 'ma_name'          => 'Antigua and Barbuda',
                 'en_official_name' => 'Antigua and Barbuda',
             ],
+
 
             // AI
             // Anguilla
@@ -112,6 +118,7 @@ class CountryList
                 'en_official_name' => 'Anguilla',
             ],
 
+
             // AL
             // Albania
             [
@@ -122,6 +129,7 @@ class CountryList
                 'ma_name'          => 'Albania',
                 'en_official_name' => 'Republic of Albania',
             ],
+
 
             // AM
             // Armenia
@@ -134,6 +142,7 @@ class CountryList
                 'en_official_name' => 'Republic of Armenia',
             ],
 
+
             // AO
             // Angola
             [
@@ -144,6 +153,7 @@ class CountryList
                 'ma_name'          => 'Angola',
                 'en_official_name' => 'Republic of Angola',
             ],
+
 
             // AQ
             // Antarctica
@@ -157,6 +167,7 @@ class CountryList
                 'en_official_name' => 'Antarctica',
             ],
 
+
             // AR
             // Argentina
             [
@@ -167,6 +178,7 @@ class CountryList
                 'ma_name'          => 'Argentina',
                 'en_official_name' => 'Argentine Republic',
             ],
+
 
             // AS
             // American Samoa
@@ -179,6 +191,7 @@ class CountryList
                 'en_official_name' => 'American Samoa',
             ],
 
+
             // AT
             // Austria
             [
@@ -189,6 +202,7 @@ class CountryList
                 'ma_name'          => 'Austria',
                 'en_official_name' => 'Republic of Austria',
             ],
+
 
             // AU
             // Australia
@@ -201,6 +215,7 @@ class CountryList
                 'en_official_name' => 'Commonwealth of Australia,',
             ],
 
+
             // AW
             // Aruba
             [
@@ -211,6 +226,7 @@ class CountryList
                 'ma_name'          => 'Aruba',
                 'en_official_name' => 'Country of Aruba',
             ],
+
 
             // AX
             // Åland Islands
@@ -224,6 +240,7 @@ class CountryList
                 'en_official_name'         => 'Region of Åland',
             ],
 
+
             // AZ
             // Azerbaijan
             [
@@ -234,6 +251,7 @@ class CountryList
                 'ma_name'          => 'Azerbaijan',
                 'en_official_name' => 'Republic of Azerbaijan',
             ],
+
 
             // BA
             // Bosnia and Herzegovina
@@ -246,6 +264,7 @@ class CountryList
                 'en_official_name' => 'Bosnia and Herzegovina',
             ],
 
+
             // BB
             // Barbados
             [
@@ -256,6 +275,7 @@ class CountryList
                 'ma_name'          => 'Barbados',
                 'en_official_name' => 'Barbados',
             ],
+
 
             // BD
             // Bangladesh
@@ -268,6 +288,7 @@ class CountryList
                 'en_official_name' => 'People’s Republic of Bangladesh', // <---- Using Right-Single-Quotation-Mark, not single-quote
             ],
 
+
             // BE
             // Belgium
             [
@@ -278,6 +299,7 @@ class CountryList
                 'ma_name'          => 'Belgium',
                 'en_official_name' => 'Kingdom of Belgium',
             ],
+
 
             // BF
             // Burkina Faso
@@ -290,6 +312,7 @@ class CountryList
                 'en_official_name' => 'Burkina Faso',
             ],
 
+
             // BG
             // Bulgaria
             [
@@ -300,6 +323,7 @@ class CountryList
                 'ma_name'          => 'Bulgaria',
                 'en_official_name' => 'Republic of Bulgaria',
             ],
+
 
             // BH
             // Bahrain
@@ -312,6 +336,7 @@ class CountryList
                 'en_official_name' => 'Kingdom of Bahrain',
             ],
 
+
             // BI
             // Burundi
             [
@@ -322,6 +347,7 @@ class CountryList
                 'ma_name'          => 'Burundi',
                 'en_official_name' => 'Republic of Burundi',
             ],
+
 
             // BJ
             // Benin
@@ -334,6 +360,7 @@ class CountryList
                 'en_official_name' => 'Republic of Benin',
             ],
 
+
             // BL
             // Saint Barthélemy
             [
@@ -344,6 +371,7 @@ class CountryList
                 'ma_name'          => 'Saint Barthélemy',
                 'en_official_name' => 'Collectivité territoriale de Saint-Barthélemy',
             ],
+
 
             // BM
             // Bermuda
@@ -356,6 +384,7 @@ class CountryList
                 'en_official_name' => 'Bermuda',
             ],
 
+
             // BN
             // Brunei Darussalam
             [
@@ -367,6 +396,7 @@ class CountryList
                 'en_official_name' => 'Brunei Darussalam',
             ],
 
+
             // BO
             // Bolivia
             [
@@ -377,6 +407,7 @@ class CountryList
                 'ma_name'          => 'Bolivia, Plurinational State of',
                 'en_official_name' => 'Plurinational State of Bolivia',
             ],
+
 
             // BQ
             // Bonaire, Sint Eustatius and Saba
@@ -391,6 +422,7 @@ class CountryList
                 'en_official_name' => 'Caribbean Netherlands',
             ],
 
+
             // BR
             // Brazil
             [
@@ -401,6 +433,7 @@ class CountryList
                 'ma_name'          => 'Brazil',
                 'en_official_name' => 'Federative Republic of Brazil',
             ],
+
 
             // BS
             // Bahamas
@@ -413,6 +446,7 @@ class CountryList
                 'en_official_name' => 'Commonwealth of The Bahamas',
             ],
 
+
             // BT
             // Bhutan
             [
@@ -423,6 +457,7 @@ class CountryList
                 'ma_name'          => 'Bhutan',
                 'en_official_name' => 'Kingdom of Bhutan',
             ],
+
 
             // BV
             // Bouvet Island
@@ -435,6 +470,7 @@ class CountryList
                 'en_official_name' => 'Bouvet Island',
             ],
 
+
             // BW
             // Botswana
             [
@@ -445,6 +481,7 @@ class CountryList
                 'ma_name'          => 'Botswana',
                 'en_official_name' => 'Republic of Botswana',
             ],
+
 
             // BY
             // Belarus
@@ -457,6 +494,7 @@ class CountryList
                 'en_official_name' => 'Republic of Belarus',
             ],
 
+
             // BZ
             // Belize
             [
@@ -467,6 +505,7 @@ class CountryList
                 'ma_name'          => 'Belize',
                 'en_official_name' => 'Belize',
             ],
+
 
             // CA
             // Canada
@@ -479,6 +518,7 @@ class CountryList
                 'en_official_name' => 'Canada',
             ],
 
+
             // CC
             // Cocos-Keeling Islands
             [
@@ -489,6 +529,7 @@ class CountryList
                 'ma_name'          => 'Cocos (Keeling) Islands',
                 'en_official_name' => 'Territory of Cocos (Keeling) Islands',
             ],
+
 
             // CD
             // DR Congo
@@ -502,6 +543,7 @@ class CountryList
                 'en_official_name' => 'Democratic Republic of the Congo',
             ],
 
+
             // CF
             // Central African Republic
             [
@@ -512,6 +554,7 @@ class CountryList
                 'ma_name'          => 'Central African Republic',
                 'en_official_name' => 'Central African Republic',
             ],
+
 
             // CG
             // Congo
@@ -524,6 +567,7 @@ class CountryList
                 'en_official_name' => 'Republic of the Congo',
             ],
 
+
             // CH
             // Switzerland
             [
@@ -535,6 +579,7 @@ class CountryList
                 'en_official_name' => 'Swiss Confederation',
             ],
 
+
             // CI
             // Ivory Coast
             [
@@ -543,8 +588,9 @@ class CountryList
                 'normalized'       => 'ivory-coast',
                 'common_name'      => 'Ivory Coast',
                 'ma_name'          => 'Côte d’Ivoire', // <---- Using Right-Single-Quotation-Mark, not single-quote
-                'en_official_name' => 'Republic of Côte d’Ivoire',
+                'en_official_name' => 'Republic of Côte d’Ivoire', // <---- Using Right-Single-Quotation-Mark, not single-quote
             ],
+
 
             // CK
             // Cook Islands
@@ -557,6 +603,7 @@ class CountryList
                 'en_official_name' => 'Cook Islands',
             ],
 
+
             // CL
             // Chile
             [
@@ -567,6 +614,7 @@ class CountryList
                 'ma_name'          => 'Chile',
                 'en_official_name' => 'Republic of Chile',
             ],
+
 
             // CM
             // Cameroon
@@ -579,6 +627,47 @@ class CountryList
                 'en_official_name' => 'Republic of Cameroon',
             ],
 
+
+            // CN
+            // China
+            [
+                'alpha-2'          => 'CN',
+                'ccTLD'            => '.cn',
+                'normalized'       => 'china',
+                'common_name'      => 'China',
+                'ma_name'          => 'China',
+                'en_official_name' => 'People’s Republic of China', // <---- Using Right-Single-Quotation-Mark, not single-quote
+            ],
+            // (Context: Sovereign country, Always listed as itself, In some contexts it will include or exclude other entries such as Macau)
+            // (Note: Special economic zones in China such as Shenzhen SEZ are at the city/province level, so should not be listed on the country level)
+            
+
+            // CO
+            // Colombia
+            [
+                'alpha-2'          => 'CO',
+                'ccTLD'            => '.co',
+                'normalized'       => 'colombia',
+                'common_name'      => 'Colombia',
+                'ma_name'          => 'Colombia',
+                'en_official_name' => 'Republic of Colombia',
+            ],
+            // (Context: Sovereign country, Always listed as itself)
+
+
+            // CR
+            // Costa Rica
+            [
+                'alpha-2'          => 'CR',
+                'ccTLD'            => '.cr',
+                'normalized'       => 'costa-rica',
+                'common_name'      => 'Costa Rica',
+                'ma_name'          => 'Costa Rica',
+                'en_official_name' => 'Republic of Costa Rica',
+            ],
+            // (Context: Sovereign country, Always listed as itself)
+
+
             // XX
             // Xxxxxxx
             [
@@ -589,13 +678,15 @@ class CountryList
                 'ma_name'          => 'XxxxxxXxxx',
                 'en_official_name' => 'XxxxxxxXxxxxxxXxxxxxx',
             ],
+            // (Context: )
 
             // TBD, Might need to add
             // ====================================
-            // - artsakh          = Republic of Artsakh
-            // - brcko / brecko   = Brčko District
-            // - federacija       = Federation of Bosnia and Herzegovina (Entity in Bosnia & Herzegovina)
-            // - srpska / serpska = Republic of Srpska (Entity in Bosnia & Herzegovina)
+            //   normalized:        name / description:                                                   Inside / Nearest UN tag:
+            // - artsakh          = Republic of Artsakh                                                   [AZ]
+            // - brcko / brecko   = Brčko District                                                        [BA]
+            // - federacija       = Federation of Bosnia and Herzegovina (Entity in Bosnia & Herzegovina) [BA]
+            // - srpska / serpska = Republic of Srpska (Entity in Bosnia & Herzegovina)                   [BA]
             // ====================================
 
         ];
