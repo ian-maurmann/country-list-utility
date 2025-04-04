@@ -626,6 +626,7 @@ class CountryList
                 'ma_name'          => 'Cameroon',
                 'en_official_name' => 'Republic of Cameroon',
             ],
+            // (Context: Sovereign country, Always listed as itself, Always includes Ambazonia except in the context of the Anglophone Crisis)
 
 
             // CN
@@ -668,6 +669,44 @@ class CountryList
             // (Context: Sovereign country, Always listed as itself)
 
 
+            // CU
+            // Cuba
+            [
+                'alpha-2'          => 'CU',
+                'ccTLD'            => '.cu',
+                'normalized'       => 'cuba',
+                'common_name'      => 'Cuba',
+                'ma_name'          => 'Cuba',
+                'en_official_name' => 'Republic of Cuba',
+            ],
+            // (Context: Sovereign country, Always listed as itself)
+
+
+            // CV
+            // Cape Verde
+            [
+                'alpha-2'          => 'CV',
+                'ccTLD'            => '.cv',
+                'normalized'       => 'cape-verde',
+                'common_name'      => 'Cape Verde',
+                'ma_name'          => 'Cabo Verde',
+                'en_official_name' => 'Republic of Cabo Verde',
+            ],
+            // (Context: Sovereign country, Always listed as itself)
+
+
+            // CW
+            // Curaçao
+            [
+                'alpha-2'          => 'CW',
+                'ccTLD'            => '.cw',
+                'normalized'       => 'curacao',
+                'common_name'      => 'Curaçao',
+                'ma_name'          => 'Curaçao',
+                'en_official_name' => 'Country of Curaçao',
+            ],
+            // (Context: In some contexts it is included with the Netherlands, and in a few (decreasing) contexts it should be included with "Dutch Caribbean" where "Dutch Caribbean" is listed, but it should *not* be included with the "Caribbean Netherlands". Formerly was included under "Netherlands Antilles" but there are *probably* no contexts that require that now)
+
             // XX
             // Xxxxxxx
             [
@@ -680,13 +719,20 @@ class CountryList
             ],
             // (Context: )
 
+
+
             // TBD, Might need to add
             // ====================================
-            //   normalized:        name / description:                                                   Inside / Nearest UN tag:
-            // - artsakh          = Republic of Artsakh                                                   [AZ]
-            // - brcko / brecko   = Brčko District                                                        [BA]
-            // - federacija       = Federation of Bosnia and Herzegovina (Entity in Bosnia & Herzegovina) [BA]
-            // - srpska / serpska = Republic of Srpska (Entity in Bosnia & Herzegovina)                   [BA]
+            //   normalized:             name / description:                                                                                Inside / Nearest UN tags for look-up:
+            //   ━━━━━━━━━━              ━━━━━━━━━━━━━━━━━━                                                                                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            // - abc-islands           = ABC Islands (The Dutch Leeward Antilles) (super-grouping / sub-grouping in Kingdom of Netherlands) [AW] [BQ] [CW] [NL]
+            // - ambazonia             = Ambazonia (In northwest Cameroon, Not clear at this time what size it is)                          [CM]
+            // - artsakh               = Republic of Artsakh (See Artsakh War in Azerbaijan)                                                [AZ] [AM]
+            // - brcko / brecko        = Brčko District                                                                                     [BA]
+            // - caribbean-netherlands = Caribbean Netherlands (super-grouping / sub-grouping for BQ)                                       [BQ] [NL]
+            // - dutch-caribbean       = Dutch Caribbean (super-grouping / sub-grouping in Kingdom of Netherlands)                          [AW] [BQ] [CW] [NL]
+            // - federacija            = Federation of Bosnia and Herzegovina (Entity in Bosnia & Herzegovina)                              [BA]
+            // - srpska / serpska      = Republic of Srpska (Entity in Bosnia & Herzegovina)                                                [BA]
             // ====================================
 
         ];
