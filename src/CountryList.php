@@ -529,6 +529,7 @@ class CountryList
                 'ma_name'          => 'Cocos (Keeling) Islands',
                 'en_official_name' => 'Territory of Cocos (Keeling) Islands',
             ],
+            // (Context: External territory of Australia, In most contexts it listed as a country by itself, but it is blurred with Australia, Christmas Island, and Western Australia)
 
 
             // CD
@@ -706,6 +707,30 @@ class CountryList
                 'en_official_name' => 'Country of Curaçao',
             ],
             // (Context: In some contexts it is included with the Netherlands, and in a few (decreasing) contexts it should be included with "Dutch Caribbean" where "Dutch Caribbean" is listed, but it should *not* be included with the "Caribbean Netherlands". Formerly was included under "Netherlands Antilles" but there are *probably* no contexts that require that now)
+
+            // CX
+            // Christmas Island
+            [
+                'alpha-2'          => 'CX',
+                'ccTLD'            => '.cx',
+                'normalized'       => 'christmas-island',
+                'common_name'      => 'Christmas Island',
+                'ma_name'          => 'Christmas Island',
+                'en_official_name' => 'Territory of Christmas Island',
+            ],
+            // (Context: External territory of Australia, In most contexts it listed as a country by itself, but it is blurred with Australia, Western Australia, and Northern Territory)
+
+            // XX
+            // Xxxxxxx
+            [
+                'alpha-2'          => 'XX',
+                'ccTLD'            => '.xx',
+                'normalized'       => 'xxxxxxx',
+                'common_name'      => 'Xxxxxxx',
+                'ma_name'          => 'XxxxxxXxxx',
+                'en_official_name' => 'XxxxxxxXxxxxxxXxxxxxx',
+            ],
+            // (Context: )
 
             // XX
             // Xxxxxxx
